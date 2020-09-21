@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+body{
+
+  font-family: 'Product Sans';
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 0px;
+  background-image: url('img/background.jpg');
+}
+header{
+ margin-bottom: 10px;
+}
+
+.top_header{
+
+  margin-left:10px;
+}
+
+.logo-img{
+  margin-top:0px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.logo-text{
+
+  margin-left: 30px;
+  font-size: 35px;
+  color: #fff;
+  vertical-align: middle; /* Ho usato un'altro vertical align per centrarlo anche nella propria riga oltre che nella box padre(per farlo più centrale)*/
+}
+
+
+hr.hr-rules{
+margin-top:10px;
+margin-bottom: 10px;
+
+}
+
+.bottom_header{
+  font-size:30px;
+  color:#fff;
+
+  vertical-align: middle;
+}
+
+.bottom_header > span {
+ background-color:orange;
+ padding: 5px;
+ border-radius: 50px;
+}
+
+.search{
+  border: 2px solid #fff;
+  border-radius: 25px;
+  height: 25px;
+  margin-top:0px;
+  vertical-align: middle;
+}
+
+.form-control{
+  display:inline-block;
+}
+
+.form-right{
+float: right;
+}
+
+
+.email-item > p > span{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.email-item{
+  background-color: #d6d6d6;
+  border: 1px solid black;
+  height: 30px;
+  display: flex;
+  text-align: left;
+  align-items: center; /* align vertical */
+  margin-bottom:2px;
+  color:#a1a1a1;
+}
+
+
+.email-item:hover{
+    background-color: #f0f0f0;
+    height: 45px;
+    cursor: pointer;
+}
+
+.already-read{
+  background-color: #f0f0f0;
+}
+
+.already-read > p > span{
+  color:#6b6b6b;
+}
+
+.mail-control{
+}
+footer{
+  text-align:center;
+  color: #fff;
+}
+footer > span{
+  font-size: 30px;
+}
